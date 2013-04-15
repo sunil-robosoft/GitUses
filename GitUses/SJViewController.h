@@ -10,4 +10,11 @@
 
 @interface SJViewController : UIViewController
 
+
+
+
+
+
+
+- (IBAction)didJustForTestingTap:(id)sender;
 @end

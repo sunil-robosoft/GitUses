@@ -26,6 +26,7 @@
     self.viewController = [[[SJViewController alloc] initWithNibName:@"SJViewController" bundle:nil] autorelease];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    NSLog(@"didFinishLaunchingWithOptions");
     return YES;
 }
 
